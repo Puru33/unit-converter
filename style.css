@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: "Inter", sans-serif;
+}
+
+#container{
+    width: 550px;
+    height: 729px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.input-field{
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+#input{
+    border-style: none;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 58px;
+    text-align: center;
+}
+
+#btn{
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    border-style: none;
+    border: 0;
+    border-radius: 5px;
+    width: 117px;
+    height: 42px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.conversion-field{
+    color: #FFFFFF;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: #CCC1FF;
+}
+
+p{
+    color: #FFFFFF;
+}
+
+.length-field{
+    text-align: center;
+    background-color: #273549;
+    margin-top: 30px;
+    width: 500px;
+    height: 108.57;
+    border-top-left-radius: 4.68px;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.volume-field{
+    text-align: center;
+    background-color: #273549;
+    margin: 20px 0;
+    width: 500px;
+    height: 108.57;
+    border-top-left-radius: 4.68px;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mass-field{
+    text-align: center;
+    background-color: #273549;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 108.57;
+    border-top-left-radius: 4.68px;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
